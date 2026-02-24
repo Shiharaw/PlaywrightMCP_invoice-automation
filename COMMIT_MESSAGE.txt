@@ -1,0 +1,12 @@
+Apply: Add login tests, POM improvements, and config for BASE_URL
+
+Summary:
+- Add full login test suite under `tests/login/` and `tests/pages/loginPage.ts` POM
+- Centralize config and credentials handling in `tests/config/`
+- Fix flakiness: retry navigation, wait for inputs, use `checkValidity()` for validation checks
+
+Suggested git commands to commit locally:
+```bash
+git add .
+git commit -m "test(login): add login tests, POM, and config; fix flakiness"
+```

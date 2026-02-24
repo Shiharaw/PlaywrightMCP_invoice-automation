@@ -1,0 +1,20 @@
+{
+  "activeUser": {
+    "email": "Shihara.Wickramasinghe@anko.com",
+    "password": "GoogleTestPassword123!",
+    "displayName": "Shihara Wickramasinghe",
+    "domain": "anko.com"
+  },
+  "testUser": {
+    "email": "test.user@anko.com",
+    "password": "TestPassword456!",
+    "displayName": "Test User",
+    "domain": "anko.com"
+  },
+  "invalidUser": {
+    "email": "invalid.user@example.com",
+    "password": "InvalidPassword789!",
+    "displayName": "Invalid User",
+    "domain": "example.com"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "primaryUser": {
+    "email": "shiharasss@gmail.com",
+    "password": "!2345678",
+    "displayName": "Shihara Invoice User",
+    "company": "Shihara Enterprises",
+    "role": "Admin",
+    "permissions": ["create_invoice", "edit_invoice", "view_invoice", "delete_invoice"]
+  },
+  "testUser": {
+    "email": "test.invoice@example.com",
+    "password": "TestInvoice456!",
+    "displayName": "Test Invoice User",
+    "company": "Test Company Ltd",
+    "role": "User",
+    "permissions": ["create_invoice", "view_invoice"]
+  },
+  "viewOnlyUser": {
+    "email": "viewer@example.com",
+    "password": "ViewOnly789!",
+    "displayName": "View Only User",
+    "company": "Viewer Corp",
+    "role": "Viewer",
+    "permissions": ["view_invoice"]
+  }
+}
