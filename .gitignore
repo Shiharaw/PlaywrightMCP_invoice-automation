@@ -1,8 +1,26 @@
 
 # Playwright
+# Dependencies
 node_modules/
+
+# Playwright reports
 /test-results/
 /playwright-report/
 /blob-report/
-/playwright/.cache/
-/playwright/.auth/
+
+# MCP runtime
+.playwright-mcp/
+
+# Editor settings
+.vscode/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+
+# OS files
+Thumbs.db
+.DS_Store
